@@ -34,3 +34,5 @@ After running the simulation for 168 turns, we made the following observations:
 - However, the increasing number of kills suggests that it got stuck at a local minimum and couldn't evolve past it.
 - Genetic AI was able to traverse more of its sample space than Reinforcement Learning, but it often got stuck at a local optima. In contrast, Reinforcement Learning was slower to traverse but managed to increase its performance over 168 episodes.
 - A potential solution may involve a hybrid variant that combines multiple Q agents navigating the environment simultaneously.
+
+![image](https://github.com/Amogh-Walia/AI-Space-Invaders/assets/72308844/ea0c65f6-4595-4009-bb15-731213f8257d)
