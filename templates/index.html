@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html language="en" manifest="manifest.appcache">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no">
+	<meta property="og:url" content="http://www.victorribeiro.com/invaderz" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="InvaderZ" />
+	<meta property="og:author" content="Victor Ribeiro" />
+	<meta property="og:description" content="Space invaders, but the invaders evolve with genetic algorithm" />
+	<meta property="og:image" content="http://www.victorribeiro.com/invaderz/screenshot.jpg" />
+	<title>Natural Selection Vs Machine Learning</title>
+	<link rel="stylesheet" href="{{url_for('static', filename='main.css')}}" />
+</head>
+<body>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js" integrity="sha512-q/dWJ3kcmjBLU4Qc47E4A9kTB4m3wuTY7vkFJDTZKjTs8jhyGQnaUrxa0Ytd0ssMZhbNua9hE+E7Qv1j+DyZwA==" crossorigin="anonymous"></script>
+
+	<script src="{{url_for('static', filename='Invader.js')}}"></script>
+	<script src="{{url_for('static', filename='Player.js')}}"></script>
+	<script src="{{url_for('static', filename='Genetics.js')}}"></script>
+	<script src="{{url_for('static', filename='main.js')}}"></script>
+	<!-- <div style = "position: absolute;
+	top:0px">
+	<table style="width:50%", border="1",>
+		<tr>               
+            <td>Episode</td><td>SCORE</td><td>KILLS</td><td>GENERATIONS</td>
+                        
+        </tr>
+        {% for item in SCOREBOARD %}    
+        <tr>
+			{%for i in item%}               
+            <td>{{i}}</td>
+			{% endfor %}      
+        </tr>
+        {% endfor %}    
+</table>
+</div> -->
+</body>
+</html>
